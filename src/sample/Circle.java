@@ -8,10 +8,12 @@ public class Circle {
     }
 
     public double getPerimeter() {
-        return 0;
+
+        return radius * 2 * 3.14;
     }
 
     public double getArea() {
-        return 0;
+
+        return Math.pow(radius, 2) * 3.14;
     }
 }
